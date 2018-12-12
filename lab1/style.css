@@ -1,0 +1,101 @@
+body {
+    padding: 0 140px 0 140px;
+}
+
+a {
+  text-decoration: none;
+  color: firebrick;
+  border-bottom: 1px dotted;
+}
+
+p, ul, ol, li {
+  font-size: large;
+  margin: 1.556em 0;
+}
+
+h4 {
+  background: black;
+  color: white;
+  margin: 0;
+}
+
+h1, h2, h3, h4, caption, thead th {
+  font-family: "Book Antiqua", Georgia, "Times New Roman", serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 0 0 1px #667;
+}
+
+pre {
+  word-wrap: break-word;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+mark {
+  background: #ff8;
+  padding: 5px;
+  border: 1px dashed #333;
+}
+
+table {
+  margin: 0 auto;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+.content-nav {
+  text-align: center;
+  margin: 65px 0px 65px 0;
+}
+
+.content-nav li {
+  list-style-type: none;
+}
+
+
+.main-title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.diving-text-container img {
+    float: left;
+}
+
+.article {
+  text-align: center;
+}
+.storage-object-table {
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+.storage-object-table td {
+  padding: 7px;
+}
+
+.bg-table-color {
+  background-color: #eee;
+}
+
+.did-you-know-table {
+  width: 100%;
+  min-height: 250px;
+  border: 1px solid black;
+}
+
+.did-you-know-table img {
+  float: right;
+}
+
+.did-you-know-table p {
+  padding: 20px 200px 20px 50px;
+}
+
+.copy {
+  text-align: center;
+}

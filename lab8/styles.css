@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: 15px;
+    padding: 10px!important;
+    width: 40px;
+    height: 40px;
+    background: url(images/logo.png) 25% 25%/ contain no-repeat;
+}
+
+/* CONTENT */
+
+.main-image {
+    width: 100%;
+    min-height: 500px;
+    background: url(images/main-img-karate.png) no-repeat;
+    background-size: cover;
+}
+
+.history-container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.history-container p, h1{
+    margin: 20px;
+}
+
+.founder-info {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.founder-info img {
+    height: 300px;
+    margin: 20px;
+    border-radius: 3px;
+}
+
+.divider {
+    width: 50%;
+    height: 3px;
+    background-color: #2e2d2d;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/* END OF CONTENT */
+
+/* Footer */
+
+footer {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #2e2d2d;
+    color: white;
+}
+
+/* Contacts page */
+.contacts-container {
+    display: flex;
+    margin-left: 10vw;
+}
+
+#map {
+        height: 100%;
+      }
+
+.form-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}

@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+body {
+    margin: 0;
+    background-color:#494B56;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container-1 {
+    background-image: url(./images/download.svg);
+    width: 100%;
+    height: 700px;
+}
+
+.bg-container-2 {
+    background-image: url(./images/background2.svg);
+    width: 90%;
+    height: 500px;
+}
+
+header {
+    background-color: #1e1f23;
+    min-height: 60px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: all .3s cubic-bezier(.2, 0, 0, 1);
+    padding: 10px;
+    color: #fff;
+}
+
+.link-3 {
+    transition: 0.4s;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+  .link-3:hover {
+    background-color: #ffffff;
+    padding: 12px 10px;
+    color: black;
+  }
+
+.button-nav {
+    color: white;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: #1e1f23;
+}
+
+.act a {
+    color: black;
+}
+
+.act {
+    background-color: #ffffff;
+    padding: 12px 10px;
+}
+
+@keyframes color_change {
+    from {
+        background-color: #000000;
+    }
+    to {
+        background-color: #FFFFFF;
+    }
+}
+
+.info {
+    width: 100%;
+    height: 500px;
+}
+
+.info-text {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-family: 'Noto Serif JP', sans-serif;
+    padding: 90px 200px 0 180px;
+}
+
+.text-color {
+    color: #F0D406;
+}
+.text-color-2 {
+    color: white;
+}
+
+.image {
+    position: absolute;
+    top: 100%;
+    left: 90%;
+    width: 200px;
+    height: 55px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear 1;
+    -moz-animation:spin 4s linear 1;
+    animation:spin 4s linear 1;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@media only screen and (max-width: 800px) {.info-text{padding: inherit;}
+.header-desc { left: 0; right: 0; text-align: center;}
+}
+
+.menu-area a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    transition: all .3s cubic-bezier(.2, 0, 0, 1);
+}
+
+.menu-area a:hover {
+    text-decoration: underline;
+}
+
+.menu-area ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-area ul li {
+    position: relative;
+    width: 100px;
+    text-align: center;
+
+}
+
+.active {
+    height: 100%;
+    color: black;
+    background-color: #ffffff;
+    transition: all .3s cubic-bezier(.2, 0, 0, 1);
+    transform-origin: bottom center;
+}
+.line {
+    background-color: #1e1f23;
+    padding: 0.4px;
+    border: none;
+}
+
+.main-line {
+    text-align: center;
+    margin-top: 50px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.slider-element p {
+    color: white;
+    visibility: hidden;
+}
+
+.slider-element {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #1e1f23;
+    transition: all 0.3s;
+}
+
+.slider-element:hover  {
+    flex-basis: 50%;
+}
+
+.slider-element:hover p {
+    visibility: visible;
+}
+
+.slider-top-element-1 {
+    background: url(./images/home_karting_blog.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.slider-top-element-2 {
+    background: url(./images/karting_2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.slider-top-element-3 {
+    background: url(./images/kart.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.slider-top-element-4 {
+    background: url(./images/france.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+table {
+    text-align: center;
+    margin:  auto;
+}
+
+td {
+    padding: 60px;
+}
+
+.position {
+    color: #F0D406;
+}
+
+.table-item {
+    color: #d2d2d2;
+}
+
+.last-results th {
+    color: #a4a4a4;
+}
+
+.last-results {
+    text-align: center;
+    background-color: #4A4D4F;
+
+}
+
+.header-desc {
+    color: white;
+    position: absolute;
+    right: 150px;
+    top: 200px;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.header-desc-1 {
+    color: #F0D406;
+}
+
+.header-desc-2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.races td {
+    width: 10px;
+}
+
+.races {
+    width: 100%;
+    border-spacing: 80px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+.races td {
+    padding: 20px;
+}
+
+.table-header {
+    background-color: #1e1f23;
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+tr.border-table td {
+    border-bottom:1pt solid black;
+}
+
+.date {
+    font-weight: 800;
+}
+
+.team_line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #1e1f23;
+    color: white;
+}
+.race_info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+    font-family: monospace;
+}
+
+footer {
+    height: 60px;
+    margin-top: 410px;
+    background-color: black;
+}
+
+.social li {
+    display: inline;
+    float: right;
+    margin: 14px;
+}
+.players_team_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.players_team_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player_line {
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.player_line_info {
+    text-align: center;
+    font-family: monospace;
+}
